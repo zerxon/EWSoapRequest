@@ -1,6 +1,6 @@
 # EWSoapRequest
 
-### Usage
+## Usage
     EWSoapRequest *soapRequest = [EWSoapRequest shareInstance];
     soapRequest.nameSpace = nameSpace;  //namespace value
     soapRequest.timeout = 10; //default is 60s
