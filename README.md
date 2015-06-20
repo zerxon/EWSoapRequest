@@ -5,7 +5,7 @@
     soapRequest.nameSpace = nameSpace;  //namespace value
     soapRequest.timeout = 10; //default is 60s
     
-    [soapRequest requestUrl:[EWAPI API_HOST]
+    [soapRequest requestUrl:url
                      action:action
                      params:params
                     success:successBlock
